@@ -27,8 +27,8 @@ body {
     background:linear-gradient(#f4c2c2 0%, white 100%);
 }
 #pic{
-  height:100px;
-  width: 100px;
+  height:300px;
+  width: 500px;
   border-radius:50%;
   border:black solid;
 }
@@ -42,4 +42,11 @@ body {
   font-size:100px;
    /*Paste the CSS code of "Are you serious" font from Google fonts.*/
   font-family: 'Are You Serious', cursive;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
 }
